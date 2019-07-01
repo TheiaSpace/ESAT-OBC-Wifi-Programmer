@@ -1,0 +1,56 @@
+# Copyright (C) 2019 Theia Space, Universidad Politécnica
+# de Madrid
+#
+# This file is part of Theia Space's ESAT OBC Wifi Programmer.
+#
+# Theia Space's ESAT OBC Wifi Programmer is free software: you can
+# redistribute it and/or modify it under the terms of the GNU General
+# Public License as published by the Free Software Foundation, either
+# version 3 of the License, or (at your option) any later version.
+#
+# Theia Space's ESAT OBC Wifi Programmer is distributed in the hope that it
+# will be useful, but WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Theia Space's ESAT OBC Wifi Programmer.  If not, see
+# <http://www.gnu.org/licenses/>.
+
+
+##################################################
+# Syntax Coloring Map For ESAT-OBC-Wifi-Programmer
+##################################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ProgrammingProcessState	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+disableWifiBoard	KEYWORD2
+longTimeSinceLatestTransfer	KEYWORD2
+newProgrammingProcessHasStarted	KEYWORD2
+switchWifiBoardToProgrammingMode	KEYWORD2
+transfer	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+latestTransferTime	KEYWORD2
+programmingProcessState	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+RESET_WAIT_MILLISECONDS	LITERAL1
+SERIAL_SPEED	LITERAL1
+TIMEOUT_MILLISECONDS	LITERAL1
+TRANSFER_IN_PROGRESS	LITERAL1
+WAITING_FOR_NEW_TRANSFER	LITERAL1
