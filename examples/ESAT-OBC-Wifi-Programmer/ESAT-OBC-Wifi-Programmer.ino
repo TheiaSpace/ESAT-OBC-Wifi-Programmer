@@ -75,7 +75,7 @@ void switchWifiBoardToProgrammingMode()
   delay(RESET_WAIT_MILLISECONDS);
   digitalWrite(ESPRST, HIGH);
   delay(RESET_WAIT_MILLISECONDS);
-  digitalWrite(ESP0, HIGH);
+  pinMode(ESP0, INPUT);
   digitalWrite(LED_O, LOW);
   latestTransferTime = millis();
 }
