@@ -17,7 +17,7 @@ along with Theia Space's ESAT OBC Wifi Programmer.  If not, see
 <http://www.gnu.org/licenses/>.
 
 
-ESAT OBC Wifi Programmer version 1.0.0.
+ESAT OBC Wifi Programmer version 1.0.1.
 
 Use the ESAT OBC board as a programming board for the ESAT Wifi board.
 
