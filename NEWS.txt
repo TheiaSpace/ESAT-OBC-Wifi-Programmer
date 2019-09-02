@@ -1,4 +1,4 @@
-﻿ESAT-OBC-Wifi-Programmer NEWS -- history of changes.
+﻿çESAT-OBC-Wifi-Programmer NEWS -- history of changes.
 
 Copyright (C) 2019 Theia Space, Universidad Politécnica de Madrid
 
@@ -17,6 +17,12 @@ See the GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Theia Space's ESAT OBC Wifi Programmer.  If not, see
 <http://www.gnu.org/licenses/>.
+
+
+* Changes in ESAT-OBC-Wifi-Programmer 1.0.1, 2019-09-02
+
+** Don't switch ESP0 HIGH after switching the Wifi board to
+programming mode.
 
 
 * Changes in ESAT-OBC-Wifi-Programmer 1.0.0, 2019-07-01
